@@ -6,7 +6,7 @@ body {
 .container {
     background: linear-gradient(to bottom, #80CBC4, #FFFFFF);
     width: 100%;
-    height: 90vh;
+    height: 1000px;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -70,4 +70,81 @@ main {
 .get:hover{
     background-color: #32b49a;
     cursor: pointer;
+}
+
+.container1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.c1 {
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.c1-1 {
+    flex: 1;
+    text-align: center;
+    font-size: large;
+    margin-top: 100px;
+}
+
+.c1-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 5;
+    align-self: flex-end;
+    font-size: medium;
+}
+
+.c-1-2-1 {
+    flex: 1;
+}
+
+.c-1-2-2 {
+    flex: 1;
+}
+
+.c2 {
+    flex: 1;
+    padding: 50px;
+    padding-top: 0;
+    margin-right: 50px;
+}
+
+.neofetch {
+    width: 100%;
+}
+
+li {
+    color:#35BFA4;
+}
+
+h3 {
+    color: #000;
+}
+
+.desc {
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 3px;
+    background: linear-gradient(to top, #dde2e2, #FFFFFF);
+}
+
+.sponsorlink {
+    color: #35BFA4;
+    font-size: medium;
+    margin: 0;
 }
